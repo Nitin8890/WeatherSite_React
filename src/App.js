@@ -58,9 +58,9 @@ function App() {
           </div>
         </div>
         <div className="w-full h-full">
-          {err && <p className="text-red-500 p-5">{err}</p>}
+          {err && <p className="text-red-500 p-5 flex justify-center items-center">{err}</p>}
           {weatherLocation && (
-            <div className="text-gray-800 rounded-md p-5 grid   gap-5">
+            <div className="text-gray-800 p-5 grid bg-gray-50  gap-5">
               <div className="border-2 border-orange-500 bg-gray-50 grid gap-2 p-5 rounded-md">
                 <h1 className="text-6xl font-bold">
                   {weatherLocation.location.name}
